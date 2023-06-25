@@ -1,8 +1,8 @@
-package com.game.xo;
+package com.xo;
 
 import java.util.Scanner;
 
-public class Runner {
+public class Game {
     private int gameModeChoice;
     private int boardChoice;
 
@@ -10,7 +10,7 @@ public class Runner {
 
         Scanner scanner = new Scanner(System.in);
 
-        //choosing single-player or multi-player
+
         System.out.println("Welcome in Tic Tac Toe Game, \n" +
                 "Press '1' if you want to play against computer. \n" +
                 "Press '2' if you want to play with other player.");
@@ -28,7 +28,6 @@ public class Runner {
             }
         }
 
-        //choosing board size
         System.out.println("\nNow choose on witch board you want to play: \n" +
                 "Press '1' if you want standard 3x3 board. \n" +
                 "Press '2' if you want 10x10 board with 5 chars in a row to win.");
